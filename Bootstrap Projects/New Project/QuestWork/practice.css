@@ -1,0 +1,22 @@
+body{
+    
+    background-image: url(../pexels-gotta-be-worth-it-919278.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+#ni{
+    width: 500px;
+    height: 1000px;
+}
+.ni{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#ni1{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 30px;
+}

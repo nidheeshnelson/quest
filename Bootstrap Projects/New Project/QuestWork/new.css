@@ -1,0 +1,33 @@
+.col-4{
+    width:10%;
+}
+.pad{
+    padding-left: 10px;
+}
+body{
+   background-color: rgb(104, 143, 66);
+    background-image: url(../Images/butterflies-1127666_1920.jpg);
+    
+    
+   
+}
+.bg-1{
+background-image:url(../Images/tree-832079_1920.jpg);
+}
+.sign{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(14, 122, 185);
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+.tab{
+    padding-left: 5px;
+    padding-top: 5px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
+}

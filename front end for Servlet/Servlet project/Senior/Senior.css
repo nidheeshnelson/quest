@@ -1,0 +1,62 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: auto;
+    height: 100px;
+}
+nav{
+    background-image: radial-gradient(white,rgb(183, 232, 247));
+    height: 10%;
+    width: 100%;
+}
+.collage{
+    display: flex;
+}
+.emblem{
+padding-top: 7px;
+font-family: Lucida Handwriting;
+font-size: xx-large;
+font-weight: bolder;
+width: 80px;
+height: 70px;
+border: solid;
+margin-top: 10px;
+margin-left: 10px;
+background-color: rgb(255, 255, 255);
+color: rgb(133, 4, 4);
+}
+.name{
+    padding-left: 100px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: papyrus;
+    font-weight: 900;
+    font-size:35px;
+    color: rgb(133, 4, 4);
+}
+.moto{
+    font-family: Brush Script MT;
+    font-size:25px;
+}
+.options{
+    margin-top: 5%;
+    display: flex;
+    font-size:x-large;
+    font-weight: 700;
+    font-family: poppins;
+}
+option{
+    
+}
+.home{
+
+}
+.sign{
+
+}
+.signin{
+
+}

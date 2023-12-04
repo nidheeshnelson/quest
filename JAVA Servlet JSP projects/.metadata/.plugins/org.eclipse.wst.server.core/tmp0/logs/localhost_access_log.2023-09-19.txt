@@ -1,0 +1,15 @@
+127.0.0.1 - - [19/Sep/2023:11:38:49 +0530] "GET / HTTP/1.1" 404 1069
+0:0:0:0:0:0:0:1 - - [19/Sep/2023:11:38:50 +0530] "GET /Project_Servlet/SignUp.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Sep/2023:11:38:50 +0530] "GET /Project_Servlet/ProjectServlet.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Sep/2023:11:39:16 +0530] "GET /Project_Servlet/SignUp.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Sep/2023:11:39:16 +0530] "GET /Project_Servlet/ProjectServlet.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Sep/2023:11:39:16 +0530] "GET /favicon.ico HTTP/1.1" 404 1080
+0:0:0:0:0:0:0:1 - - [19/Sep/2023:11:40:18 +0530] "GET /Project_Servlet/MyServlet?firstname=Jibin&lastname=sa&age=32&dob=1994-02-24&place=kfgfgtghj&phone=5847164156&email=igbedfyhgbdf%40lkigh&password=6548fhj&submit=Submit HTTP/1.1" 200 3205
+127.0.0.1 - - [19/Sep/2023:13:36:54 +0530] "GET / HTTP/1.1" 404 1069
+0:0:0:0:0:0:0:1 - - [19/Sep/2023:13:36:55 +0530] "GET /Project_Servlet/LogIn.html HTTP/1.1" 200 2471
+0:0:0:0:0:0:0:1 - - [19/Sep/2023:13:37:19 +0530] "POST /Project_Servlet/signin HTTP/1.1" 200 3239
+0:0:0:0:0:0:0:1 - - [19/Sep/2023:13:37:42 +0530] "GET /Project_Servlet/MyServlet HTTP/1.1" 500 1574
+0:0:0:0:0:0:0:1 - - [19/Sep/2023:13:38:02 +0530] "GET /Project_Servlet/signin HTTP/1.1" 200 27
+0:0:0:0:0:0:0:1 - - [19/Sep/2023:13:38:23 +0530] "GET /Project_Servlet/LogIn.html HTTP/1.1" 200 2471
+0:0:0:0:0:0:0:1 - - [19/Sep/2023:13:38:31 +0530] "POST /Project_Servlet/signin HTTP/1.1" 200 3239
+0:0:0:0:0:0:0:1 - - [19/Sep/2023:13:38:54 +0530] "POST /Project_Servlet/signin HTTP/1.1" 200 3239

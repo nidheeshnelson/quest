@@ -1,0 +1,32 @@
+table,th,td{
+    border:3px solid crimson;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th{
+    height: 30px;
+    background-color: aquamarine;
+    vertical-align: bottom;
+    padding: 15px;
+}
+td{
+    height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: bisque;
+    padding: 10px;
+}
+
+tr:hover {
+background-color:darkcyan;
+}
+
+tr:nth-child(odd) {
+background-color: chocolate;
+}
+h1:hover{
+    background-color: blue;
+    width: 13%;
+}

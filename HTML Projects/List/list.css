@@ -1,0 +1,19 @@
+.navi{
+    list-style-type:none;
+    overflow: hidden;
+    background-color: brown;
+color: aliceblue;
+font-size: 20px;
+}
+
+
+.navi{
+    li{
+float: left;
+padding: 25px;
+    }
+}
+li:hover{ background-color: blue;}
+li{
+    
+}

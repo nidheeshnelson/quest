@@ -1,0 +1,333 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width:auto;
+    height: 950px;
+    background-image: conic-gradient(at 50% 50%, white,#252a55);
+}
+.name{
+
+}
+.college{
+    padding: 5px 20px 5px 20px;
+}
+.moto{
+    padding: 0px 20px 20px 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00ffa2;
+}
+img{
+    width:100%;
+    height: auto;
+}
+.emblem{
+    padding: 10px 20px 10px 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #fbff00;
+    color: #252a55;
+   border-style: solid;
+   border-color: black;
+}
+.emblem:hover{
+    
+}
+.college{
+    margin-top: 10px;
+font-family: fantasy;
+font-size: 40px;
+text-shadow: 10px;
+color: brown;
+}
+.moto{
+    font-family: fantasy;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 1px;
+    color:#252a55;
+}
+.account{
+    padding: 5px;
+    margin-top: 60px;
+    gap: 8px;
+    display: flex;
+    justify-content: space-between;
+text-align: right;
+text-decoration: none;
+font-family: cursive;
+font-weight: 600;
+color: black;
+}
+.signin {
+    padding: 10px 10px 10px 10px;
+}
+.new{
+    padding: 10px 10px 10px 10px;
+    }
+.signin:hover{
+    background-color: rgb(0, 179, 9);
+    border-radius: 20px;
+}
+.new:hover{
+    background-color:  rgb(0, 179, 9);
+    border-radius: 20px;
+}
+.body{
+    margin-top: 10px;
+}
+.boot{
+    width:100%;
+    height:300px;
+}
+.card{
+    margin-top: -100px;
+display: flex;
+justify-content: space-around;
+}
+.card2{
+    margin-top: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card3{
+    display: flex;
+    justify-content: space-around;
+}
+.card1{
+    width:30%;
+    height: 390px;
+    background-color: rgb(30, 58, 88);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow:5px 5px brown;
+}
+.head2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fbff00;
+    font-family: Georgia;
+}
+.head3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ff0000;
+    font-family: Georgia;
+}
+.head1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -150px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fbff00;
+    font-family: Georgia;
+}
+.head4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -150px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ff0000;
+    font-family: Georgia;
+}
+marquee{
+position:relative;
+left: 10px;
+margin-right: 20px;
+height: 20vh;
+color: white;
+font-size: larger;
+}
+.marquee{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:larger;
+    font-weight:bolder;
+    color: #000985;
+    text-shadow: 1px 1px 1px black;
+}
+.marquee1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:larger;
+    font-weight:bolder;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+}
+
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10%;
+    width: 180px;
+}
+h2{
+    font-family: cursive;
+    color: yellow;
+}
+p{
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+button{
+    width:auto;
+    height: auto;
+    color: rgb(0, 255, 34);
+    background-color: rgb(42, 136, 165);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+   
+}
+#signin{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgb(114, 156, 247),rgb(0, 0, 0), rgb(253, 105, 105));
+    border-radius: 20px;
+    margin-top: -100px;
+   
+}
+#photo{
+
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    height: auto;
+}
+#table{
+   width: 70%;
+   height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    opacity: 80%;
+}
+table{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    line-height: 50px;
+    column-gap: 10px;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+    background-color: beige;
+    border-radius: 20px;
+    opacity: 200%;
+}
+table tr th{
+    font-family:Courier New;
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+table:hover{
+
+}
+.heading{
+font-size: xx-large;
+}
+input[type=text],input[type=email],input[type=password]{
+    border:0.1px solid;
+    border-radius: 4px;
+    height: 30px;
+    width: 250px;
+}
+input[type=submit]{
+    background-color: #04AA6D;
+    border: none;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: x-large;
+    font-family:Courier New;
+}
+input[type=submit]:hover{
+background-color: rgb(255, 93, 93);
+}
+.salute{
+    position: relative;
+    font-family: cursive;
+    color: rgb(37, 27, 82);
+    text-align: center;
+   
+}
+.options{
+    position: relative;
+    float: left;
+    line-height: 100px;
+    margin-left: 20px;
+}
+.options ul li,.social ul li{
+    list-style: none;
+   
+}
+.options ul li a,.social ul li a{
+    
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(252, 169, 114);
+    text-decoration: none;
+    font-family:cursive;
+    font-weight: 900;
+    border-radius: 20px;
+    color: rgb(23, 23, 87);
+}
+.options ul li a:hover,.social ul li a:hover{
+background-color: rgb(255, 103, 2);
+}
+.image1{
+position: absolute;
+}
+.social{
+    position: relative;
+    float: right;
+    line-height: 100px;
+   margin-right: 20px;
+}
+#edittable{
+   position:relative;
+    align-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(3, 3, 104);
+    font-size: x-large;
+    font-weight: 600;
+    font-family: Arial;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    line-height: 50px;
+    background-color: rgb(134, 144, 173);
+    border-radius: 20px;
+}

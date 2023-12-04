@@ -1,0 +1,15 @@
+h1{
+    border: solid;
+    border-width: 10px;
+    border-top-style: dotted;
+    border-color: aquamarine;
+    border-bottom: groove;
+}
+p{
+    border-left: groove;
+    border-width: 10px;
+}
+h2,h3{
+    border: solid;
+    border-radius: 10px;
+}

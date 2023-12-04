@@ -1,0 +1,33 @@
+.container{
+    background-color: rgb(60, 161, 192);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container1{
+    margin-top: 150px;
+}
+.container2{
+    margin-top: 150px;
+   
+}
+h1,h2{
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: auto;
+   
+}
+.nid{
+    height: 400px;
+    width: auto;
+}
+table{
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+  
+}

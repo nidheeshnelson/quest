@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+   
+}
+nav{
+    width:100%;
+    height: 80px;
+    background-color: rgb(143, 176, 238);
+}
+.logo{
+    font-size: 80px;
+    margin-top: 20px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color:red;
+
+}
+.n{
+    color: blueviolet;
+}
+.e{
+    color: yellow;
+}
+ul{
+    float: right;
+    list-style: none;
+    font-family: sans-serif;
+   
+}
+nav ul li{
+    padding: 30px 10px;
+    display:inline-block;
+    line-height: 80px;
+}

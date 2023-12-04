@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@ page import="java.io.*,java.util.*,java.sql.*"%>  
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<sql:setDataSource var="db" driver="com.mysql.jdbc.Driver" 
+url="jdbc:mysql://127.0.0.1:3306/newjstl" user="root" password=""/>
+<sql:query var="rs" dataSourse="{db}">
+select * from data;
+</sql:query>
+<table border="2" width="100%">  
+<tr>  
+<th>Student Name</th>  
+<th>Age</th>  
+</tr>  
+<c:forEach var="table" items="${rs.rows}">  
+<tr>  
+<td><c:out value="${table.name}"/></td>  
+<td><c:out value="${table.age}"/></td>  
+</tr>  
+</c:forEach>  
+</table>  
+</body>
+</html>

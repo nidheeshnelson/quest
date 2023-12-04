@@ -1,0 +1,10 @@
+.container{
+    background-color: aquamarine;
+    border: 2px;;
+}
+.row{
+    border: 2px solid red;
+}
+.col-1{
+    border: 1px solid black;
+}

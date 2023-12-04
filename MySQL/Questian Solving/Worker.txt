@@ -1,0 +1,8 @@
+create table Worker (WORKER_ID int not null auto_increment,
+FIRST_NAME varchar(25) not null,
+LAST_NAME varchar(25),
+SALARY int,
+JOINING_DATE datetime not null,
+DEPARTMENT varchar(25) not null
+primary key (WORKER_ID)
+);

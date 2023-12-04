@@ -1,0 +1,22 @@
+h2:hover{
+    color: blueviolet;
+    font-size: 30px;
+}
+h3:active{
+    color: blue;
+    font-size: 30px;
+    font-style: italic;
+}
+h4:focus{
+
+}
+input:focus{
+    background-color: chartreuse;
+    border: 2px;
+}
+a:link{
+color: cornflowerblue;
+}
+a:visited{
+    color: chocolate;
+}

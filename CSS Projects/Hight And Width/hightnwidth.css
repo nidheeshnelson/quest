@@ -1,0 +1,9 @@
+h1{
+    border: solid;
+    width: 100px;
+}
+.di{
+    height: 300px;
+    width: 50%;
+    background-color: aqua;
+}

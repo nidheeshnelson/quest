@@ -1,0 +1,18 @@
+p::first-line{
+    color: blue;
+}
+h1::first-letter{
+    color: blueviolet;
+}
+h1::after{
+    content:" Reality";
+    color: aquamarine;
+}
+h1:hover::after{
+    content:" for me";
+    color: chartreuse;
+}
+p::selection{
+    color: cadetblue;
+    background-color: aqua;
+}

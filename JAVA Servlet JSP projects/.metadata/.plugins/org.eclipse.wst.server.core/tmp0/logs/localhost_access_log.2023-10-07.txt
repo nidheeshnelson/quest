@@ -1,0 +1,16 @@
+127.0.0.1 - - [07/Oct/2023:11:25:28 +0530] "GET / HTTP/1.1" 404 1069
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:11:25:29 +0530] "GET /Science/ScienceSignin.html HTTP/1.1" 200 2277
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:11:25:29 +0530] "GET /Science/graduation.png HTTP/1.1" 200 20343
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:11:25:29 +0530] "GET /Science/Science.js HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:11:25:29 +0530] "GET /Science/Science.css HTTP/1.1" 200 3351
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:11:25:29 +0530] "GET /Science/graduated%20(2).png HTTP/1.1" 200 20051
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:11:25:42 +0530] "GET /Science/ScienceSignin.html HTTP/1.1" 200 2277
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:11:25:42 +0530] "GET /Science/Science.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:11:25:42 +0530] "GET /Science/Science.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:11:25:42 +0530] "GET /Science/graduation.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:11:25:42 +0530] "GET /Science/graduated%20(2).png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:11:25:42 +0530] "GET /favicon.ico HTTP/1.1" 404 1080
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:11:25:52 +0530] "POST /Science/LoginControl HTTP/1.1" 200 19
+127.0.0.1 - - [07/Oct/2023:11:29:50 +0530] "GET / HTTP/1.1" 404 1069
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:11:30:09 +0530] "POST /Science/LoginControl HTTP/1.1" 200 19
+0:0:0:0:0:0:0:1 - - [07/Oct/2023:11:32:48 +0530] "POST /Science/LoginControl HTTP/1.1" 200 19

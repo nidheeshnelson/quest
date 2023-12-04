@@ -1,0 +1,69 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(211, 212, 195);
+}
+.nav1{
+    display: flex;
+    font-family:fantasy;
+    font-size: xx-large;
+}
+.nav2{
+    text-align: right;
+    display: flex;
+    gap: 15px;
+    font-weight:bolder;
+    font-family: comic sans MS;
+}
+body{
+    background-image: conic-gradient(at 30% 70%, white,rgb(85, 85, 85));
+    width: auto;
+    height: 1000px;
+    font-family: comic sans MS;
+}
+.bodypart{
+    display: flex;
+justify-content: space-between;
+}
+.tab{
+width: 30%;
+height:500px;
+margin-top: 3%;
+
+/*background-color: aqua;*/
+}
+.box{
+    margin: auto;
+    margin-top: 3%;
+    border: solid;
+width:60%;
+height:auto;
+/*background-color: rgb(127, 157, 255);*/
+text-align: center;
+}
+h3{
+    background-image: linear-gradient(rgb(149, 150, 83),white);
+}
+h3:hover{
+    color: rgb(252, 5, 5);
+}
+button{
+    width: 95%;
+    height: 110px;
+    border: none;
+    background-image: linear-gradient(rgb(89, 90, 2),white);
+    font-size: x-large;
+}
+button:hover{
+    color: white;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+table{
+    width:auto;
+    height: auto;
+    margin: auto;
+}

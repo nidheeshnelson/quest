@@ -1,0 +1,10 @@
+*{
+    color: rgb(243, 221, 99);
+    background-color: darkgoldenrod;
+}
+p,h1{
+    background-color: beige;
+}
+#p1{
+    background-color: aquamarine;
+}
