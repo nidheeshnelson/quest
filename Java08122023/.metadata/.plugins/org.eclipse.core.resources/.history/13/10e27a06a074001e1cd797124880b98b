@@ -1,0 +1,23 @@
+body{
+    
+    background-image: url(./1000_F_109686318_4AGfJ7ukNOheXiuVi9q7wQiqGcfIzLFt.jpg);
+}
+table{
+    width: auto;
+    height: auto;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    table-layout:auto;
+}
+th{
+    text-align: center;
+}
+td{
+    
+}
+h1{text-align: center;
+font-size: 50px;}

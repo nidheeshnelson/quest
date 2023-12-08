@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+D:\JAVA projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\930357116.index
+\JSP Project\src
+D:\JAVA projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2946156110.index
+\JSTLproject\src
+D:\JAVA projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1913479150.index
+\ToDoList_JSP_JSTL\src
