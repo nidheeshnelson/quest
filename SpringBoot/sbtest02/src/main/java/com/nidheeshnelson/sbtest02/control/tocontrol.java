@@ -20,6 +20,7 @@ public class tocontrol {
 	String in(@ModelAttribute("info") Login l, Model m) {
 		m.addAttribute("pass", l.getPass());
 		m.addAttribute("name", l.getUser());
+		m.addAttribute("log",l);
 		System.out.println("in");
 		return "show";
 	}
