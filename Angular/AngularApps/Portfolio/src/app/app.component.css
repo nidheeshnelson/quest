@@ -1,0 +1,17 @@
+img{
+    width: 100%;
+    border-radius: 50%;
+}
+.box{
+    background-color: #9797f3;
+}
+.btn button {
+    font-size: medium;
+    padding: 5px 5px;
+    border: 0;
+    outline: none;
+    background-color: aqua;
+}
+/* .btn{
+    margin: 0 10px 0 10px;
+} */

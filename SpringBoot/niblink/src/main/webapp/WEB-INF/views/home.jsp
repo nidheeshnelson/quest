@@ -17,7 +17,7 @@
                 <button class="join">Join partner <i class="fa-solid fa-person-arrow-down-to-line"></i>
                 <div class="sub-menu-1">
                     <ul>
-                        <li><a href="#">Join Experts</a></li>
+                        <li><a href="/expert">Join Experts</a></li>
                         <li><a href="#">Join Engineers</a></li>
                         <li><a href="#">Join Machine Owners</a></li>
                         <li><a href="#">Join Trucks</a></li>
