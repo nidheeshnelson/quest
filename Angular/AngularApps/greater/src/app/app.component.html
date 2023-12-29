@@ -1,0 +1,43 @@
+<H1>Least and Greatest</H1>
+<h3>Enter Three numbers for find greatest and least numbers</h3>
+<h4>Enter first number</h4>
+<input type="number" name="num1" [(ngModel)]="num1">
+<h4>Enter Second number</h4>
+<input type="number" name="num2" [(ngModel)]="num2">
+<h4>Enter Third number</h4>
+<input type="number" name="num3" [(ngModel)]="num3">
+<button (click)="fun()">Check</button>
+  <div *ngIf="(num1>=num2)&&(num1>=num3);then trueblock else falseblock">
+  </div>
+  <ng-template #trueblock>
+  <h1>Greatest number is {{num1}}</h1>
+  <div *ngIf="(num2<=num3); else minus">
+    <h1>Least number is {{num2}}</h1>
+  </div>
+  <ng-template #minus>
+    <h1>Least number is {{num3}}</h1>
+  </ng-template>
+  </ng-template>
+  <ng-template #falseblock>
+    <div *ngIf="(num2>=num3)&&(num2>=num1);then truen else falsen">
+    </div>
+    <ng-template #truen>
+      <h1>Greatest number is {{num2}}</h1>
+      <div *ngIf="(num1<num3); else falsens">
+        <h1>Least number is {{num1}}</h1>
+      </div>
+      <ng-template #falsens>
+        <h1>Least number is {{num3}}</h1>
+      </ng-template>
+    </ng-template>
+    <ng-template #falsen>
+      <h1>Greatest number is {{num3}}</h1>
+      <div *ngIf="(num2<num1); else falsenss">
+        <h1>Least number is {{num2}}</h1>
+      </div>
+      <ng-template #falsenss>
+        <h1>Least number is {{num1}}</h1>
+      </ng-template>
+    </ng-template>
+  </ng-template>
+<router-outlet></router-outlet>
