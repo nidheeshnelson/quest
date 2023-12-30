@@ -248,8 +248,8 @@
                             </datalist>
                         </div>
                         <div class="input-field">
-                            <label for="">Payment per hour you want</label>
-                            <input type="number" name="payment" placeholder="Enter your payment for an hour" autocomplete="off" required>
+                            <label for="">Payment per 4 hours a day</label>
+                            <input type="number" name="payment" placeholder="Enter your payment for 4hours" autocomplete="off" required>
                         </div>
                         <div class="input-field">
                             <label for="">Commission percentage of salary</label>
