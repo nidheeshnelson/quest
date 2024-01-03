@@ -9,11 +9,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.crud.todo.model.ListModel;
 import com.crud.todo.service.ListService;
 
-@Controller
+@RestController
 public class ListControl {
 	@Autowired
 	private ListService ls;
@@ -36,7 +37,7 @@ public void delete(@RequestBody ListModel lm) {
 			+ "delete");
 	ls.delete(lm);
 }
-@GetMapping("sh")
+@GetMapping("/sh")
 public List<ListModel> Show() {
 	System.out.println("In  show");
 

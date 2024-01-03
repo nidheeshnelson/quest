@@ -3,6 +3,7 @@ package com.crud.todo.model;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,10 +15,24 @@ import jakarta.persistence.Table;
 public class ListModel {
 	@Id
 private String id;
-	@DateTimeFormat
+	@Column(name="last updt dtime")
 private String dateandtime;
+	private String date;
+	private String time;
 private String matter;
 private int status;
+public String getDate() {
+	return date;
+}
+public void setDate(String date) {
+	this.date = date;
+}
+public String getTime() {
+	return time;
+}
+public void setTime(String time) {
+	this.time = time;
+}
 public String getId() {
 	return id;
 }
@@ -44,7 +59,9 @@ public void setStatus(int status) {
 }
 @Override
 public String toString() {
-	return "ListModel [id=" + id + ", dateandtime=" + dateandtime + ", matter=" + matter + ", status=" + status + "]";
+	return "ListModel [id=" + id + ", dateandtime=" + dateandtime + ", date=" + date + ", time=" + time + ", matter="
+			+ matter + ", status=" + status + "]";
 }
+
 
 }
