@@ -1,0 +1,6 @@
+<p>sender works!</p>
+<form #nameform="ngForm" (ngSubmit)="reg(nameform.value)">
+    <label for="name">Enter your name</label>
+    <input type="text" name="name1" ngModel>
+    <input type="submit" value="Submit">
+</form>

@@ -25,6 +25,7 @@ export class ReceiverComponent {
   regdata()
   {
     this.data=this.med.viewData();
+    console.log("in viewData",this.data);
     
     
     // console.log("fgdfgfggfhjgjky");

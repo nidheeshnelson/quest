@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { log } from 'console';
 
 @Injectable({
   providedIn: 'root'
@@ -14,6 +15,7 @@ export class MedService {
 
   changeData(data:any){
     this.dataToShare = data
+console.log("in changeData",data);
 
   }
 }
