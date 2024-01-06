@@ -9,5 +9,5 @@ phone int8 unique not null,
 password varchar(25) not null,
 primary key(id));
 use website;
-insert into websitetable(data1, data2, data3, data4, phone, password) 
-values();
+insert into websitetable(data1, data2, data3, data4, phone, password) values();
+select * from websitetable;

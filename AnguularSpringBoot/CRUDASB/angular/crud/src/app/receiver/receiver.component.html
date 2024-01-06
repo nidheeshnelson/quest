@@ -1,0 +1,26 @@
+<p>receiver works!</p>
+<button (click)="showData()">View Data</button>
+
+
+<div *ngIf="responses">
+    <ul *ngFor="let response of responses">
+        <li><table>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>age</th>
+                <th>place</th>
+            </tr>
+            <tr>
+                <td>{{response.id}}</td>
+                <td>{{response.name}}</td>
+                <td>{{response.age}}</td>
+                <td>{{response.place}}</td>
+            </tr>
+        </table></li>
+        
+    </ul>
+</div>
+<table>
+    
+</table>

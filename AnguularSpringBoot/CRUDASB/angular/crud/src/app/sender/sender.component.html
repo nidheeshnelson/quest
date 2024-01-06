@@ -1,0 +1,10 @@
+<p>sender works!</p>
+<form #namelist="ngForm" (ngSubmit)="register(namelist.value)">
+    <label for="name">Enter Your Name</label>
+    <input type="text" name="name" ngModel><br>
+    <label for="">Enter Your Age</label>
+    <input type="number" name="age" ngModel><br>
+    <label for="">Enter Your Place</label>
+    <input type="text" name="place" ngModel><br>
+    <input type="submit" value="Submit">
+</form>
